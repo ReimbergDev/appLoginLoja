@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /*border: rgb(255, 77, 77) 3px solid;*/
+    height: 100vh;  
+}
+.container{
+
+    /*border: solid blue 3px;*/
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+}
+.img2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-right: 220px;
+    margin-top: 180px;
+    width: 80px;
+    height: 80px;
+}
+.text{
+    position: absolute;
+    margin-top: 290px;
+    font-size: 13px;
+    margin-right: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Log{
+    background-color:;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: -30px;
+
+}
+.redesSociais{
+    position: absolute;
+    
+    margin-top: 510px;
+    margin-right: 85px;
+}
+.redesSociais img{
+    
+    width: 47px;
+    height: 47px;
+    
+}
+.button{
+    background-color: rgb(53, 53, 255);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #feaeaefa;
+    border: solid white 3px;
+    margin-left: 190px;
+    margin-bottom: 50px;
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
+    
+}
+.btn{
+    position: absolute;
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin-top: 410px;
+    margin-left: 75px;
+    height: 195px;
+    width: 411px;
+    /* border: solid 3px blue;*/
+    text-decoration: none;
+    
+}
+.emailNome input{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 45px;
+    margin-left: 40px;
+    background-color: #fda8a8;
+    color: white;
+    border: white solid 2px;
+    border-radius: 35px;
+    margin: 12px;
+    margin-bottom: 10px;
+}
